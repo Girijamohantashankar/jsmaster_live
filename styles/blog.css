@@ -1,0 +1,133 @@
+.blog_container {
+    padding: 20px;
+}
+
+.posts_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post {
+    background: #838282b8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.blog_container h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.post_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.post_header h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.post_header h2,
+.post_date,
+.post_content p {
+    color: #fff;
+}
+
+.post_date {
+    font-size: 14px;
+    color: #888888;
+}
+
+.post_image {
+    /* margin-bottom: 20px; */
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+.post_content {
+    margin-bottom: 20px;
+}
+
+.post_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post_footer textarea {
+    outline: none;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+    background-color: #ddd;
+}
+
+.post_footer button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0070f3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.post_footer button:hover {
+    background-color: #005bb5;
+}
+
+.blog_card_header h2 {
+    font-size: 20px;
+}
+
+.blog_card_header span {
+    margin-top: 7px;
+    color: #ddd;
+    font-size: 12px;
+}
+
+button.post_ans_btn {
+    background-color: #ff5722;
+}
+
+button.post_ans_btn:hover {
+    background-color: #b63109;
+}
+
+.answer_item .ans_text {
+    margin: 0;
+    color: #bfbfbf;
+}
+
+.answer_item .ans_user {
+    margin-bottom: 5px;
+    font-size: 15px;
+
+}
+
+.answer_item {
+    margin-bottom: 8px;
+    margin-top: 40px;
+}
+
+.answer_date {
+    float: right;
+    margin: 15px 0;
+    font-size: 12px;
+    color: #ddd;
+}

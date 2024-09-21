@@ -1,0 +1,386 @@
+.home_container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    /* padding: 20px; */
+    overflow-x: hidden;
+}
+
+.hero_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.hero_image {
+    flex: 1;
+    position: relative;
+    height: 400px;
+    width: 50%;
+}
+
+.hero_content {
+    flex: 1;
+    padding: 20px;
+}
+
+.hero_content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero_content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta_button {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta_button:hover {
+    background-color: #6aabf7;
+}
+
+.courses_section {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses_section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+    width: fit-content;
+}
+
+.course_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course_item {
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1 1 calc(33% - 20px);
+    box-shadow: rgb(255 254 254 / 35%) 0px 5px 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course_item:hover {
+    transform: scale(1.05);
+    box-shadow: rgb(255 254 254 / 55%) 0px 10px 20px;
+}
+
+.certificate_section {
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificate_section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    width: fit-content;
+}
+
+.certificate_section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+
+.hero_image {
+    flex: 1;
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.slider_image {
+    position: relative;
+    height: 400px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.hero_content {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.hero_content h1 span,
+.hero_content p span,
+.course_item h3 span,
+.courses_section h2 span,
+.course_item p span,
+.certificate_section h2 span,
+.my_plans h2 span,
+.testimonial_container h2 span,
+.faq_container h2 span {
+    color: orangered;
+}
+
+.cta_button {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.course_item p {
+    line-height: 2;
+}
+
+.certificate_image {
+    width: 600px;
+    height: 400px;
+    box-shadow: #FF5722 0px 5px 15px;
+}
+
+.my_plans {
+    text-align: center;
+    padding: 40px 20px;
+
+}
+
+.my_plans h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #fff;
+    border-bottom: 4px solid #fff;
+}
+
+.plans_table_wrapper {
+    overflow-x: auto;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.plans_table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+.plans_table th,
+.plans_table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.plans_table th {
+    font-weight: bold;
+}
+
+.plans_table tr:nth-child(even) {
+    background-color: transparent;
+}
+
+.check_icon {
+    font-size: 1.5rem;
+    color: green;
+}
+
+.check_icon.col_r {
+    color: #FF5722;
+}
+
+.testimonial_container {
+    text-align: center;
+    padding: 40px 20px;
+
+}
+
+.testimonial_container h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #fff;
+
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimonial_item {
+    background-color: #ffffffbf;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgb(46 205 255 / 99%) 0px 5px 15px;
+    max-width: 330px;
+    height: 200px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial_item:hover {
+    transform: scale(1.05);
+    box-shadow: rgb(46 205 255 / 78%) 0px 5px 15px;
+}
+
+.testimonial_quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.testimonial_name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.testimonial_role {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.faq_container {
+    padding: 40px 20px;
+}
+
+.faq_container h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.faq_item {
+    margin-bottom: 10px;
+    background-color: #ffffffbf;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faq_item.active {
+    background-color: #e0f7fa;
+}
+
+.faq_question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.faq_question h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.dropdown_icon {
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.faq_answer {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    display: none;
+}
+
+.faq_item:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+@media(max-width: 768px) {
+    .certificate_image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .plans_table th,
+    .plans_table td {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    /* .testimonials {
+        flex-direction: row;
+        justify-content: space-between;
+    } */
+
+    /* .testimonial_item {
+        width: calc(33% - 20px);
+    } */
+    .faq_item {
+        max-width: 800px;
+        margin: 0 auto 20px;
+    }
+
+    .faq_question h3 {
+        font-size: 15px;
+    }
+
+    .testimonial_quote {
+        font-size: 15px;
+    }
+
+    .testimonial_item {
+        height: auto;
+    }
+
+    .discount_notification p,
+    .hero_content p,
+    .certificate_section p {
+        font-size: 12px;
+    }
+
+    .hero_content h1 {
+        font-size: 20px;
+    }
+
+    .course_list {
+        display: inline-block;
+        
+    }.course_item{
+        margin-bottom: 20px;
+    }
+}

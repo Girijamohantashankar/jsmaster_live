@@ -1,0 +1,67 @@
+.about_container {
+    padding: 50px;
+    min-height: 100vh;
+    text-align: center;
+    color: #fff;
+}
+
+.about_intro, .about_mission, .about_team, .about_contact {
+    margin-bottom: 50px;
+}
+
+.about_intro h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.about_intro p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}.about_intro h1 span,.about_intro p span,.orange,.or{
+    color: orangered;
+}
+
+.about_mission h2, .about_team h2, .about_contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about_team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team_member {
+    margin: 20px;
+    text-align: center;
+}
+
+.team_member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team_member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.team_member p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.about_contact a {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+.about_contact a:hover {
+    text-decoration: underline;
+}

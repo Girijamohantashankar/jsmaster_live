@@ -1,0 +1,1 @@
+.scroll_button{position:fixed;bottom:20px;right:20px;background-color:#1f7be56e;color:#fff;border:none;border-radius:50%;width:50px;height:50px;display:flex;align-items:center;justify-content:center;font-size:24px;cursor:pointer;box-shadow:0 5px 15px rgba(0,0,0,.2);transition:background-color .3s,transform .3s}.scroll_button:hover{background-color:#005bb5;transform:scale(1.1)}
